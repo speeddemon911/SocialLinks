@@ -1,0 +1,88 @@
+.btn-group button {
+    background-color: hsl(0, 0%, 21%);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 7px;
+    border: 0;
+    
+}
+
+.btn-group button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.wrapper {
+    background-color: hsl(0, 0%, 5%);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.main {
+    background-color: hsl(0, 0%, 15%);
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    border-radius: 15px;
+}
+
+.background {
+    background-color: black;
+    padding-bottom: 100px;
+    
+}
+
+
+#location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    
+}
+
+#name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#description {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+#name, #location, #description, p, .btn-group {
+    text-align: center;
+    font-family: "Inter";
+}
+
+#profile-pic {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    max-width: 23%;
+}
+
+body {
+    margin: 0;
+}
+
